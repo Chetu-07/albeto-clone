@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+:root{
+    --header-text-size : 1.7rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:4vh 5vh 2vh 5vh;
+    border-bottom: 2px solid grey;
+}
+.header-list{
+    display: flex;
+    gap: 0.325rem;
+    gap: 5vh;
+}
+.header-list li:nth-child(8) a{
+    color: orange;
+}
+
+.header-list-item{
+    font-family: "Bebas Neue", sans-serif;      
+    font-size: var(--header-text-size);
+ 
+}
+.header-list-item a:hover {
+    font-size: calc(var(--header-text-size)*1.25);
+    color: rgba(106, 45, 45, 0.664);
+}
+
+.header-list-item > a {
+    color: black;
+}
+
+.header-login-texts{
+    display: flex;
+    gap: 1rem;
+}
+
+ .header-login-texts li:nth-child(1) a {
+    color: rgba(63, 63, 161, 0.895);
+}
+
+ .header-login-texts li:nth-child(2) a {
+    font-size: calc(var(--header-text-size) * 0.7);
+}
+
