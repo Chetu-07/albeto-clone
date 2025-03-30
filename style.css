@@ -4,12 +4,15 @@
 }
 a{
     text-decoration: none;
+    color: black;
 }
 li{
     list-style: none;
 }
 :root{
     --header-text-size : 1.7rem;
+    --secondary-header-text-size : 1.3rem;
+
 }
 .header{
     display: flex;
@@ -36,10 +39,6 @@ li{
     color: rgba(106, 45, 45, 0.664);
 }
 
-.header-list-item > a {
-    color: black;
-}
-
 .header-login-texts{
     display: flex;
     gap: 1rem;
@@ -51,5 +50,19 @@ li{
 
  .header-login-texts li:nth-child(2) a {
     font-size: calc(var(--header-text-size) * 0.7);
+}
+
+
+/* secondory header css */
+.secondary-header{
+    padding:4vh 10vh 2vh 40vh;
+}
+.secondary-header-list{
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;      
+    gap: 0.325rem;
+    font-size: var(--secondary-header-text-size);
+    font-weight: lighter;
+
 }
 
